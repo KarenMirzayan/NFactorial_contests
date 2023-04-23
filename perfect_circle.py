@@ -37,7 +37,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 bg = pygame.surface.Surface((WIDTH, HEIGHT))
 bg.fill("Black")
 pygame.draw.circle(bg, "Grey", (400, 400), 10, 0)
-pygame.draw.circle(bg, "Grey", (400, 400), 50, 1)
 screen.blit(bg, (0, 0))
 
 blackbg = pygame.surface.Surface((69, 20))
